@@ -1,0 +1,20 @@
+{
+    "name": "irwanesia/belajar-php-composer-library",
+    "description": "belajar php composer membuat library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Irwanesia\\Belajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "irwanesia",
+            "email": "irwan.codeir@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0",
+       "monolog/monolog" :"3.4.*"
+    }
+}
